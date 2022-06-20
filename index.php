@@ -10,9 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
-    <style>
-        /* Make the image fully responsive */
-    </style>
+    <link rel="stylesheet" href="css/style3.css">
 </head>
 
 <body>
@@ -32,7 +30,7 @@
                         <a class="nav-link" href="about.php" style="font-size: 20px;">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="font-size: 20px;">Services</a>
+                        <a class="nav-link" href="#middle" style="font-size: 20px;">Services</a>
                     </li>
 
                     <li class="nav-item">
@@ -47,7 +45,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
-    
+
     <div id="demo" class="carousel slide" data-ride="carousel">
 
         <!-- Indicators -->
@@ -94,7 +92,7 @@
             </div>
             <div class="row">
                 <div class="col--lg-6 col-md-6 com-12">
-                    <img src="images/aboutUs.jpg" alt="About Us" class="img-fluid aboutImg">
+                    <img src="images/aboutUss1.jpg" alt="About Us" class="img-fluid aboutImg">
                 </div>
                 <div class="col--lg-6 col-md-6 com-12">
                     <h2 class="display-4">Travel and Tourism</h2>
@@ -106,7 +104,7 @@
                 </div>
             </div>
         </section>
-        <h2 style="text-align: center;font-size: 40px;">Our Services</h2>
+        <h2 style="text-align: center;font-size: 40px;" id="middle">Our Services</h2>
         <div class="row">
             <div class="column">
                 <img src="images/icon1.jpg" alt="Adventure" style="width:100%">
@@ -138,51 +136,43 @@
                 </div>
             </section>
         </center>
-        <!-- <section class="footer">
+        <br><br>
+        <section style="background-image: url('images/footer1.jpg');background-repeat: no-repeat;" class="img-fluid aboutImg">
 
-<div class="box-container">
+            <div class="container">
 
-   <div class="box">
-      <h3>quick links</h3>
-      <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
-      <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
-      <a href="package.php"> <i class="fas fa-angle-right"></i> package</a>
-      <a href="book.php"> <i class="fas fa-angle-right"></i> book</a>
-   </div>
+                <div class="box" id="item1">
+                    <h3 style="color: white;">QUICK LINKS</h3>
+                    <div><a href="index.php">home</a></div>
+                    <div><a href="about.php">about us</a></div>
+                    <div><a href="index.php#middle">services</a></div>
+                    <div><a href="book.php">book</a></div>
+                </div>
 
-   <div class="box">
-      <h3>extra links</h3>
-      <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
-      <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
-      <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
-      <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
-   </div>
+                <div class="box" id="item2">
+                    <h3 style="color: white;">CONTACT INFO</h3>
+                    <a href="#">+91-8088-6077-32</a>
+                    <a href="#">+91-8088-6077-33</a>
+                    <a href="#">abc@gmail.com </a>
+                    <a href="#">dehradun, india -248001 </a>
+                </div>
 
-   <div class="box">
-      <h3>contact info</h3>
-      <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-      <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-      <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
-      <a href="#"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
-   </div>
+                <div class="box" id="item3">
+                    <h3 style="color: white;">FOLLOW US</h3>
+                    <div><a href="#">facebook </a></div>
+                    <div><a href="#"> twitter </a></div>
+                    <div><a href="#">instagram </a></div>
+                    <div> <a href="#">linkedin </a></div>
+                </div>
 
-   <div class="box">
-      <h3>follow us</h3>
-      <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-      <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-      <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-      <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-   </div>
+            </div>
 
-</div>
+            <center>
+                <div class="credit" style="color:white;"> created by <span>ABC</span> | all rights reserved! </div>
+            </center>
 
-<div class="credit"> created by <span>mr. web designer</span> | all rights reserved! </div>
+        </section>
 
-</section>
-
-
-<!-- swiper js link  -->
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> 
 </body>
 
 </html>

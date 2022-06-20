@@ -106,7 +106,7 @@
                         <a class="nav-link" href="about.php" style="font-size: 20px;">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="font-size: 20px;">Services</a>
+                        <a class="nav-link" href="index.php#middle" style="font-size: 20px;">Services</a>
                     </li>
 
                     <li class="nav-item">
@@ -184,6 +184,7 @@
                 <input type="submit" value="PROCEED">
             </div>
         </form>
+        
     </main>
 </body>
 
