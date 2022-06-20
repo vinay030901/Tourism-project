@@ -36,6 +36,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="book.php" style="font-size: 20px;">Book</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signin.php" style="font-size: 20px;">Sign In</a>
+                    </li>
                 </ul>
             </div>
         </div>

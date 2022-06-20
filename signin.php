@@ -130,8 +130,9 @@
         </h1>
     </header>
     <main>
-        <form name="contactForm" onsubmit="return validateForm()" action="userinfo.php" method="post" class="content">
-            <h2>BOOK YOURSELF A RIDE</h2>
+        <form action="userinfo1.php" method="post" class="content">
+            <h2>GET BOOKING DETAILS</h2>
+            <H3>ENTER YOUR NAME AND EMAIL</H3>
             <div class="row">
                 <label>Full Name</label>
                 <input type="text" name="name">
@@ -141,47 +142,6 @@
                 <label>Email Address</label>
                 <input type="text" name="email">
                 <div class="error" id="emailErr"></div>
-            </div>
-            <div class="row">
-                <label>Mobile Number</label>
-                <input type="text" name="mobile" maxlength="10">
-                <div class="error" id="mobileErr"></div>
-            </div>
-            <div class="row">
-                <label>Destination</label>
-                <select name="destination">
-                    <option>Select</option>
-                    <option>Los Angeles</option>
-                    <option>London</option>
-                    <option>New Delhi</option>
-                    <option>Paris</option>
-                    <option>Sydney</option>
-                    <option>Bern</option>
-                    <option>Rio</option>
-                </select>
-                <div class="error" id="destinationErr"></div>
-            </div>
-            <div class="row">
-                <label>Gender</label>
-                <div class="form-inline">
-                    <label><input type="radio" name="gender" value="male"> Male</label>
-                    <label><input type="radio" name="gender" value="female"> Female</label>
-                </div>
-                <div class="error" id="genderErr"></div>
-            </div>
-            <div class="row">
-                <label>Date to Travel</label>
-                <input type="date" name="date">
-                <div class="error" id="dateErr"></div>
-            </div>
-            <div class="row">
-                <label>Choose Services <i>(Optional)</i></label>
-                <div class="form-inline">
-                    <label><input type="checkbox" name="services[]" value="sports">Flights</label>
-                    <label><input type="checkbox" name="services[]" value="movies">Hotels</label>
-                    <label><input type="checkbox" name="services[]" value="music"> Tourguide</label>
-                    <label><input type="checkbox" name="services[]" value="music"> Trekking</label>
-                </div>
             </div>
             <div class="row">
                 <input type="submit" value="PROCEED">

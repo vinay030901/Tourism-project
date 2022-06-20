@@ -28,7 +28,7 @@
 .box {
     width: 150px;
     height: 200px;
-    color: darkred;
+    color: rgb(49, 43, 43);
     font-weight: bolder;
     margin: 8px;
     padding: 10px;
